@@ -10,7 +10,7 @@ envelope.addEventListener('click', function () {
         setTimeout(() => {
             envelope.classList.add('shaking')
         }, 2300);
-        
+
         setTimeout
             (() => {
                 lanzarCorazones()
@@ -85,7 +85,7 @@ function romperSobre() {
 }
 
 function lanzarCorazones() {
-    const cantidadCorazones  = 550
+    const cantidadCorazones = 100
     const emojisCorazones = ['❤️', '💕', '💖', '💗', '💓', '💝', '💘', '💞', '💟'];
     const envelopeRect = envelope.getBoundingClientRect();
     const puntoAperturaX = envelopeRect.left + envelopeRect.width / 3
