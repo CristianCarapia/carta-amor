@@ -88,7 +88,7 @@ function romperSobre() {
 }
 
 function lanzarCorazones() {
-    const cantidadCorazones = 100
+    const cantidadCorazones = 70
     const emojisCorazones = ['❤️', '💕', '💖', '💗', '💓', '💝', '💘', '💞', '💟'];
     const envelopeRect = envelope.getBoundingClientRect();
     const puntoAperturaX = envelopeRect.left + envelopeRect.width / 3
