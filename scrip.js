@@ -89,7 +89,7 @@ function romperSobre() {
 
 function lanzarCorazones() {
 
-    const cantidadCorazones = 70
+    const cantidadCorazones = 50
 
 
     const emojisCorazones = ['❤️', '💕', '💖', '💗', '💓', '💝', '💘', '💞', '💟'];
